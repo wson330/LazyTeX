@@ -1,0 +1,47 @@
+# tamer_fusion requirements.txt
+# =====================================
+# Core ML Framework (설치: README에서 conda로 안내)
+#   - torch==1.8.1
+#   - torchvision==0.9.1
+# =====================================
+# 여기서는 torch/torchvision을 일부러 제외합니다.
+
+# -----------------------------
+# Lightning + Metrics
+# -----------------------------
+pytorch-lightning==1.4.9
+torchmetrics==0.6.0
+
+# -----------------------------
+# Image / Data Processing
+# -----------------------------
+opencv-python-headless==4.5.4.60
+pillow==8.4.0
+scikit-image==0.17.2
+einops==0.3.0
+editdistance==0.5.3
+
+# -----------------------------
+# Config / CLI / Utils
+# -----------------------------
+jsonargparse[signatures]==3.19.4
+typer==0.4.1
+PyYAML>=5.1
+tqdm>=4.41.0
+requests>=2.25.0
+
+# -----------------------------
+# Logging / Visualization
+# -----------------------------
+matplotlib==3.5.1
+tensorboard==2.11.2
+beautifulsoup4==4.10.0
+lxml>=4.9.1
+
+# -----------------------------
+# (Optional) Dev Dependencies
+# 필요 없으면 아래 세 줄은 제거해도 됨.
+# -----------------------------
+pytest==6.2.5
+black==22.3.0
+flake8==4.0.1
