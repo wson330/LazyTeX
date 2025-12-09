@@ -1,4 +1,4 @@
-# LazyTeX - YAICON 7th
+# LazyTeX - 7th YAICON
 
 ## Introduction
 This project aims to develop an OCR system that converts handwritten mathematical expression images into LaTeX sequences. Existing models have shown limitations in terms of accuracy and inference time due to their insufficient reflection of the structural characteristics of mathematical expressions (e.g., parenthesis matching, tree structure). The main architecture of this model is built upon a Tree-Aware Transformer (TAMER).
